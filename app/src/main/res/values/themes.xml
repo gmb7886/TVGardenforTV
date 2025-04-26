@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.Netflix" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- Main application theme -->
+    <style name="Theme.Netflix" parent="Base.Theme.Netflix" />
+
+    <!-- Splash screen theme -->
+    <style name="Theme.Splash" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Usa splash.png como background da janela -->
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+</resources>

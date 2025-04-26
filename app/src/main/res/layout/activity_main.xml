@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Use a tag de CustomWebView aqui para evitar ClassCastException -->
+    <com.marinov.netflix.CustomWebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <!-- Cursor/Mira para controle remoto -->
+    <ImageView
+        android:id="@+id/cursor"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/cursor"
+        android:visibility="visible"
+        android:layout_gravity="top|start" />
+
+</FrameLayout>
