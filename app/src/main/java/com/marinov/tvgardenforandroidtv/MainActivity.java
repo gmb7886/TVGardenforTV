@@ -18,6 +18,8 @@ import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
+import com.marinov.netflix.R;
+
 public class MainActivity extends Activity {
     private CustomWebView webView;
     private ImageView cursorView;

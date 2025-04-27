@@ -10,10 +10,4 @@
     <!-- Main application theme -->
     <style name="Theme.TV.Garden" parent="Base.Theme.TV.Garden" />
 
-    <!-- Splash screen theme -->
-    <style name="Theme.Splash" parent="Theme.Material3.Light.NoActionBar">
-        <!-- Usa splash.png como background da janela -->
-        <item name="android:windowBackground">@drawable/splash</item>
-    </style>
-
 </resources>
