@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.marinov.netflix"
+    namespace = "com.marinov.tvgardenforandroidtv"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.marinov.netflix"
+        applicationId = "com.marinov.tvgardenforandroidtv"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
