@@ -2,13 +2,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme -->
-    <style name="Base.Theme.Netflix" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.TV.Garden" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
     <!-- Main application theme -->
-    <style name="Theme.Netflix" parent="Base.Theme.Netflix" />
+    <style name="Theme.TV.Garden" parent="Base.Theme.TV.Garden" />
 
     <!-- Splash screen theme -->
     <style name="Theme.Splash" parent="Theme.Material3.Light.NoActionBar">

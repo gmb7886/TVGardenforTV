@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Netflix"
+rootProject.name = "TV.Garden for Android TV"
 include(":app")
